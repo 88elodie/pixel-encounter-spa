@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-family: DotGothic16;
+    background-color: rgb(41, 41, 41);
+}
+
+#app {
+    margin: 2em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+a, h1, p {
+    color: beige;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav a {
+    color: beige;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 10px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.nav a:hover {
+    color: black;
+    text-shadow: -1px -1px 0 beige, 1px -1px 0 beige, -1px 1px 0 beige, 1px 1px 0 beige;
+}
+
+.monster-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.monster {
+    margin: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: none;
+    transition: box-shadow 0.3s;
+    border-radius: 10px;
+}
+
+.monster:hover {
+    box-shadow:  6px 2px 16px 0 rgba(5, 5, 5, 0.48), -6px -2px 16px 0 rgba(50, 50, 50, 0.8), -6px -2px 16px 0 rgba(50, 50, 50, 0.8), -6px -2px 16px 0 rgba(50, 50, 50, 0.8), -6px -2px 16px 0 rgba(50, 50, 50, 0.8), -6px -2px 16px 0 rgba(50, 50, 50, 0.8), -6px -2px 16px 0 rgba(50, 50, 50, 0.8), -6px -2px 16px 0 rgba(50, 50, 50, 0.8), 6px 2px 16px 0 rgba(5, 5, 5, 0.48), 6px 2px 16px 0 rgba(5, 5, 5, 0.48), 6px 2px 16px 0 rgba(5, 5, 5, 0.48), 6px 2px 16px 0 rgba(5, 5, 5, 0.48), 6px 2px 16px 0 rgba(5, 5, 5, 0.48);
+    transition: box-shadow 0.3s;
+}
+
+.monster a {
+    text-decoration: none;
+}
+
+.monster img{
+    padding: 20px;
+}
+
+.right {
+    float: right;
+}
+
+.monster-details {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 40px;
+    color: beige;
+}
+
+.details {
+    margin-top: 100px;
+}
+
+.details p {
+    margin-bottom: 10px;
+}
+
+.back {
+    margin-top: 50px;
+}
